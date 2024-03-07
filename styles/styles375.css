@@ -1,0 +1,107 @@
+@media only screen and (max-width: 375px) {
+
+    .header {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0% 0% 0% 0%;
+        padding: 0% 0% 0% 0%;
+
+        background-color: #f5f5f5;
+    }
+
+
+    .alura {
+        align-self: flex-start;
+        margin-top: 20px;
+        margin-left: -20px;
+        width: 50px;
+    }
+
+    .logo {
+        align-self: center;
+        width: 100%;
+        padding-left: 0%;
+    }
+
+
+    .logo__nome {
+        display: none;
+    }
+
+    .contorno {
+        display: flex;
+        justify-content: end;
+        width: 900px;
+        margin-top: 10px;
+
+    }
+
+    .contorno .botao:hover {
+        width: 170px;
+    }
+
+    .principal {
+        display: flex;
+        flex-direction: column;
+        margin: 20px 0px 0px 0px;
+        padding: 0px 5px 0px 5px;
+    }
+
+    .textarea {
+        width: 338px;
+    }
+
+
+    .alerta {
+        font-size: 18px;
+        width: 350px;
+    }
+
+    .botoes {
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+
+    .botao__criptografar {
+        flex: 1;
+        margin-left: 40px;
+        width: 280px;
+    }
+
+    .botao__descriptografar {
+        flex: 1;
+        margin-top: 30px;
+        width: 300px;
+        margin-left: 30px;
+    }
+
+    .resposta {
+        display: flex;
+        width: 350px;
+        margin: 40px 0px 0px 0px;
+    }
+
+    .footer__texto {
+        margin-bottom: 20px;
+    }
+
+    .ImagemPC {
+        width: 300px;
+    }
+
+    .digite {
+        font-size: 18px;
+    }
+
+    .nao-encontrado {
+        font-size: 30px;
+    }
+
+
+
+
+
+
+}

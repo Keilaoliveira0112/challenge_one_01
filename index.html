@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles768.css">
+    <link rel="stylesheet" href="styles/styles375.css">
+    <link rel="shortcut icon" href="assets/" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>ONE encryptor</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="alura">
+            <img src="assets/Frame6.png" alt="Logomarca da Alura">
+        </div>
+        <div class="logo">
+            <a href="./index.html">
+                <h1 class="logo__nome"><strong class="one">ONE</strong> <strong class="encry">encry </strong>ptor</h1>
+            </a>
+        </div>
+        <div class="contorno">
+            <div class="botao">
+                <a href="https://www.linkedin.com/in/keilaoliveiradev/" target="_blank">
+                    <div class="icones"><i class="fa-brands fa-linkedin-in"></i></div>
+                    <span>Linkedin</span>
+                </a>
+            </div>
+            <div class="botao">
+                <a href="https://github.com/Keilaoliveira0112" target="_blank">
+                    <div class="icones"><i class="fa-brands fa-github"></i></div>
+                    <span>GitHub</span>
+                </a>
+            </div>
+            <div class="botao">
+                <a href="https://wa.me/5511961604935" target="_blank">
+                    <div class="icones"><i class="fa-brands fa-whatsapp"></i></div>
+                    <span>WhatsApp</span>
+                </a>
+            </div>
+        </div>
+    </header>
+    <main class="principal">
+        <section class="principal__conteudo">
+            <textarea id="input" class="textarea" name="mensagem" placeholder="Digite seu texto" rows="12"></textarea>
+            <div class="principal__aviso">
+                <p class="alerta"><i class="fa-solid fa-circle-exclamation" id="alert"></i>Apenas letras minúsculas e
+                    sem acento.</p>
+            </div>
+            <div class="botoes">
+                <button class="botao__criptografar"><i class="fa-solid fa-lock"></i>Criptografar</button>
+                <button class="botao__descriptografar"><i class="fa-solid fa-lock-open"></i>Descriptografar</button>
+            </div>
+            
+        </section>
+        <section class="resposta">
+            <div class="ImagemPC">
+                <img src="assets/Asset1.svg" alt="Ilustação de um notebook e gráficos com uma lupa">
+            </div>
+            <div class="container__paragraph">
+                <p class="nao-encontrado">Nenhuma mensagem <br>encontrada</p>
+                <p class="digite">Digite um texto que deseja criptografar <br> ou descriptografar</p>
+            </div>
+            <div class="container__result">
+                <p class="result__text"></p>
+            </div>
+            <div class="container__copy__button">
+                <button id="copy" class="botao-copiar"><i class="fa-solid fa-copy"></i>Copiar</button>
+            </div>
+        </section>
+    </main>
+    <script src="script.js"></script>
+    <footer>
+        <p class="footer__texto">© 2024 Keila. Todos os direitos reservados. Design por Keila.</p>
+    </footer>
+</body>
+
+</html>
